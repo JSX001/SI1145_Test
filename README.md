@@ -1,7 +1,9 @@
 # SI1145_Test
 The SI1145 is a UV light sensing module, AdaFruit produce a version with a library and instruction for the Arduino.
-We wanted to use this with the Photon, 
-Tests the SI1145 UV Sensor with the Photon, using the Adafruit_SI1145 Library
+
+We wanted to use this with the Photon, but we are unable to make it work, with the Photon going in to SOS mode.
+
+This Project tests the SI1145 UV Sensor with the Photon, using the Adafruit_SI1145 Library.
 
 The code contains a simple program which attemps to read the SI1145 UV data using the AdaFruit library.
 The Library is a copy of the Arduino verison, simply adding the #include "Application.h"
