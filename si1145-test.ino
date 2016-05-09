@@ -7,6 +7,10 @@ Adafruit_SI1145 uv = Adafruit_SI1145();
 void setup() 
 {
 
+  if (! uv.begin()) {
+    Serial.println("Didn't find Si1145");
+    while (1);
+  }
     Serial.begin(9600);
 }
 
